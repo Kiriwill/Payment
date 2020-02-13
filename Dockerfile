@@ -11,6 +11,8 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
+RUN python create_tables.py
+
 EXPOSE 8081
 
 CMD ["python", "app.py"]
