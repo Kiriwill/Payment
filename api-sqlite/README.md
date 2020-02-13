@@ -11,7 +11,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-ou utilize o Docker (é preciso configurar o xhost para dar acesso a camera):
+ou utilize o Docker:
 
 ```bash
 sudo docker build -t api-sqlal .
