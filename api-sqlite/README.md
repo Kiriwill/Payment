@@ -1,4 +1,4 @@
-# HTTP YoloV3 Object Recognizer - HTTPYOR
+# API - SQLAlchemy - Payment
 
   A aplicação consiste na administração de banco de dados a partir de requests HTTP.
 
