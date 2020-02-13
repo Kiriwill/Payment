@@ -11,7 +11,7 @@ def insert_row(Table:str, **kwargs):
 
     logger.info(f'{Table} inserido.')
 
-def insert_dp_row(Parent:str, Child:str, **kwargs): #checagem para se tem child=relação
+def insert_dp_row(Parent:str, Child:str, **kwargs):
     parent = getattr(schemas, Parent)
     id = kwargs.pop('id_child')
 
